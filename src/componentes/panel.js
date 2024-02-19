@@ -201,18 +201,18 @@ export const panel = {
   sumarPuntos: (puntos) => {
     panel.puntos += puntos
     document.querySelector('#puntos').innerHTML = panel.puntos
-    panel.comprobarNivel(panel.puntos)
-  },
-
-  comprobarNivel: (puntosTotales) => {
-
-    if(puntosTotales % panel.niveles==0){
-      panel.niveles+=1
-      
-      document.querySelector('#nivel').innerHTML = panel.niveles
-    }
-
+    // panel.comprobarNivel(panel.puntos)
   }
+
+  // comprobarNivel: (puntosTotales) => {
+
+  //   if(puntosTotales % panel.niveles==0){
+  //     panel.niveles+=1
+      
+  //     document.querySelector('#nivel').innerHTML = panel.niveles
+  //   }
+
+  // }
   
 
 }
